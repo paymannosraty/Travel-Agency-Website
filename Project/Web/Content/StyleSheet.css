@@ -1,0 +1,100 @@
+﻿@font-face {
+	font-family: 'Yekan';
+	src: url('../Font/Yekan.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Parastoo';
+	src: url('../Font/Parastoo.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'yekan-regular';
+	src: url('../Font/yekan-regular.woff') format('woff');
+}
+
+body {
+	background-color: #f1f1f1;
+	font-family: Yekan;
+	margin: 0px;
+	direction: rtl;
+}
+
+.BoxDiv {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #ffffff;
+	height: 1000px;
+	box-shadow: rgba(0,0,0,0.15) 0 8px 2px 0;
+}
+
+.LogoDiv {
+	padding: 10px;
+	float: right;
+}
+
+.SearchDiv {
+	float: left;
+	padding-top: 20px;
+	padding-left: 25px;
+	position: relative;
+}
+
+.SearchInput {
+	background-color: #ffffff;
+	font-family: Yekan;
+	font-size: 14px;
+	padding-right: 15px;
+	border: solid 1px #e6e6e6;
+	outline: none;
+	width: 385px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.SearchButton {
+	background-color: #f3f3f3;
+	border: solid 1px #e3e3e3;
+	border-radius: 2px;
+	font-size: 14px;
+	height: 36px;
+	padding: 0 15px;
+	position: absolute;
+	top: 20px;
+	left: 24px;
+}
+
+.ClearDiv::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/************************************************/
+
+.MenuDiv {
+	background-color: #bff7f7;
+}
+
+	.MenuDiv > ul {
+		list-style: none;
+		margin: 0;
+	}
+
+		.MenuDiv > ul > li {
+			display: inline-block;
+		}
+
+			.MenuDiv > ul > li > a {
+				text-decoration: none;
+				display: inline-block;
+				color: #555555;
+				font-size: 16px;
+				padding: 10px 20px;
+				transition: 0.5s;
+			}
+
+				.MenuDiv > ul > li > a:hover {
+					background-color: #d5f8f8;
+				}
